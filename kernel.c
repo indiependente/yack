@@ -2,7 +2,7 @@
 
 /*	DEFINE		*/
 #define WHITE_TXT 0x07	//white on black
-#define RED_TXT 0xAF
+#define RED_TXT 0x04	//red on black
 
 /*	PROTOTYPES	*/
 void printk(char*);
