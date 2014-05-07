@@ -1,3 +1,4 @@
 bin/
 bochsout.txt
+floppy.img
 src/*.o

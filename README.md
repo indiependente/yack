@@ -5,16 +5,16 @@ Yet Another C Kernel
 
 ====
 
-How to
+###How to
 
 1. Compile with make
-2. Update kernel image with _update_image.sh_
-3. Execute it in Bochs with _run_bochs.sh_
+2. Update kernel image with *update_image.sh*
+3. Execute it in Bochs with *run_bochs.sh*
 4. Have fun!
 
 ====
 
-Dependencies
+###Dependencies
 
 nasm
 ld
