@@ -12,10 +12,11 @@ ASFLAGS=-felf
 all: $(SOURCES) link clean-src
 
 clean:
-	rm bin/*.o bin/kernel
+	rm bin/kernel
 clean-src:
 	rm src/*.o
 link:
+	mkdir -p bin
 	ld $(LDFLAGS) -o bin/kernel $(SOURCES)
 
 .s.o:

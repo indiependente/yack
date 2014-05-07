@@ -6,5 +6,5 @@ boot: a
 log: bochsout.txt
 mouse: enabled=0
 clock: sync=realtime
-cpu: ips=500000
-display_library: sdl
+cpu: ips=1000000
+#display_library: sdl
